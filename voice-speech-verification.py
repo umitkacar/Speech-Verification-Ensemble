@@ -172,7 +172,7 @@ from resemblyzer import VoiceEncoder, preprocess_wav
 from pathlib import Path
 
 # np.set_printoptions(precision=3, suppress=True)
-encoder = VoiceEncoder()
+encoder = VoiceEncoder('cpu')
 embed_total = []
 for i in tqdm(range(len(wave_list))):
     fpath = Path(wave_list[i])
