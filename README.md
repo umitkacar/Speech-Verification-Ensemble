@@ -1,10 +1,5 @@
 
-# Dev to master
-
-# Origin
-
 # Speech-Verification-Ensemble
-Speech-Voice Verification Ensemble
 
 1- MFCC + DTW
 
